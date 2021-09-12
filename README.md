@@ -10,5 +10,8 @@ A WebExtension to save people's eyes.
 
 More to be added.
 
+## Installation
+... I can't remember how I signed it but I'm sure you can work it out if you search for [Firefox extension signing](https://stackoverflow.com/questions/34608873/how-to-sign-a-firefox-extension). 
+
 # License
 Apache 2.0
