@@ -15,3 +15,4 @@ resources/.arch-internal-preview.css
 web-ext-artifacts/
 .devcontainer
 *.zip
+.web-extension-id
