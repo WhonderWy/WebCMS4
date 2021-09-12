@@ -1,6 +1,6 @@
 # WebCMS4 - For Firefox
 
-A Firefox extension to save people's eyes.
+A WebExtension to save people's eyes.
 
 ## Features
 1. Dark Mode
