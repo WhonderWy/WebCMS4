@@ -1,5 +1,5 @@
 function dumpBookmarks() {
-  chrome.runtime.sendMessage({action : "get-bookmarks"}, function(response) {
+  browser.runtime.sendMessage({action : "get-bookmarks"}, function(response) {
     var navbar = document.getElementsByClassName("navbar-nav")[0];
     for (var i = 0; i < response.length; i++) {
       console.log(response[i]);

@@ -1,7 +1,7 @@
-chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
+browser.extension.onMessage.addListener(function(request, sender, sendResponse) {
   if (request.action === "get-bookmarks") {
-    chrome.bookmarks.search("WebCMS4", function(w4node) {
-      chrome.bookmarks.getSubTree(w4node[0]["id"], function(w4tree) {
+    browser.bookmarks.search("WebCMS4", function(w4node) {
+      browser.bookmarks.getSubTree(w4node[0]["id"], function(w4tree) {
         flatennedBookmarks = [];
         bookmarks = w4tree[0]["children"];
         for (let i = 0; i < bookmarks.length; i++) {

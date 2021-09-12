@@ -27,11 +27,10 @@ a:hover::after {
   height: .2em;
 }
 
-a:link {color: blue; text-decoration: none; }
-a:visited {color: purple; text-decoration: none; }
-a:hover {color: orange; text-decoration: underline; }
-a:active {color: red; }
-
+/* a:link {color: #95efff; text-decoration: none; }
+a:visited {color: #eb00eb; text-decoration: none; }
+a:hover {color: #ffbc40; text-decoration: underline; }
+a:active {color: #ff7a7a; } */
 
 .panel-default>.panel-heading {
   color: white !important;
